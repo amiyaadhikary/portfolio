@@ -1,0 +1,67 @@
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #1a1a1d;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #f5f5f5 !important;
+}
+
+header {
+  height: 100vh;
+  background: linear-gradient(to right, #4848af, #9b499e);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+.skills i {
+  font-size: 3rem;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.project-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  background-color: #1a1a1d;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.btn-custom {
+  background-color: #ff5722;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: #e64a19;
+}
